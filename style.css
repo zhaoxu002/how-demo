@@ -54,7 +54,7 @@ footer{
 .right{
   float: right;
 }
-.content:before{
+/*.content:before{
   content: ".";
   display: block;
   height: 40px;
@@ -65,7 +65,7 @@ footer{
   display: block;
   height: 40px;
   width: 100%;
-}
+}*/
 
 .cell{
   margin: 10px;
@@ -77,7 +77,7 @@ footer{
   padding: 15px;
   /*border: 1px solid blue;*/
   border-radius: 7px;
-  box-shadow: 0 0 5px 3px #ccc;
+  box-shadow: 0 0 5px 1px #ccc;
   background: #fff;
   z-index: 3;
   position: relative;
@@ -97,6 +97,8 @@ footer{
 .question .q-share{
   width: 30px;
   height: 30px;
+  line-height: 30px;
+  text-align: center;
   display: block;
   border-radius: 15px;
   position: absolute;
@@ -115,7 +117,7 @@ footer{
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   background: #fff;
-  box-shadow: 0 0 5px 3px #ccc;
+  box-shadow: 0 0 5px 1px #ccc;
   z-index: 2;
 
 }
