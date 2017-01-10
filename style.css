@@ -192,6 +192,7 @@ display: -webkit-box;
   font-size: 12px;
   line-height: 30px;
   border-top: 1px dashed #ccc;
+  color: #999;
 }
 .a-triangle{
   margin-left: 10px;
@@ -201,4 +202,15 @@ display: -webkit-box;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
   box-shadow: 0 0 5px 3px #ccc;
+}
+.question-info-test{
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  border-top: 1px dashed #ccc;
+  font-size: 12px;
+  box-shadow: 0 0 5px 3px #ccc;
+  margin-left: 10px;
+  text-align: center;
+  background: linear-gradient(225deg, transparent 5px, #A7EAFB 5px);
 }
